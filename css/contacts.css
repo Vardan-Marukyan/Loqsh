@@ -1,0 +1,79 @@
+@import "./default.css";
+@import "../fonts/font.css";
+
+.contacts-legal-Notice{
+    display: flex;
+    flex-direction: column;
+}
+
+.legal-Notice__style{
+    margin-top: 70px;
+}
+
+.contacts__style{
+    margin: 20px 0;
+}
+
+.contacts-legal-Notice__title{
+    font-family: "Inter-medium";
+    font-size: 40px;
+    color: #08040d;
+}
+
+.contacts-legal-Notice__box-content{
+    display: flex;
+    text-align: justify;
+    font-family: "Inter-medium";
+    font-size: 20px;
+    color: #08040d;
+    margin-top: 15px;
+}
+
+.contacts-legal-Notice__in-icon{
+    margin: 10px -2px;
+}
+
+.contacts-legal-Notice__in-icon-link{
+    text-decoration: none;
+}
+
+.contacts-legal-Notice__icon-linkedin-icon-1{
+    font-size: 40px;
+    color: black;
+}
+
+@media only screen and (max-width: 1040px) {
+    .contacts-legal-Notice{
+        justify-content: center;
+    }
+  }
+
+@media only screen and (max-width: 655px) {
+    .contacts-legal-Notice{
+        justify-content: center;
+    }
+  }
+
+@media only screen and (max-width: 655px) {
+    .contacts-legal-Notice__title {
+        font-size: 37px;
+    }
+    .contacts-legal-Notice__box-content {
+        font-size: 17px;
+    }
+    .contacts-legal-Notice__icon-linkedin-icon-1 {
+        font-size: 35px;
+    }
+  }
+
+@media only screen and (max-width: 415px) {
+    .contacts-legal-Notice__title {
+        font-size: 33px;
+    }
+    .contacts-legal-Notice__box-content {
+        font-size: 13px;
+    }
+    .contacts-legal-Notice__icon-linkedin-icon-1 {
+        font-size: 30px;
+    }
+  }

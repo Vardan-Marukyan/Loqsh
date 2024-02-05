@@ -1,0 +1,119 @@
+@import "./default.css";
+@import "../fonts/font.css";
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card{
+    padding: 20px;
+    box-shadow: 0px 0px 11px rgba(0,0,0, 0.4);
+    border-radius: 10px;
+    width: 295px;
+    height: 230px;
+    margin: 20px 20px;
+    position: relative;
+}
+
+.card__number{
+    position: absolute;
+    font-size: 40px;
+    font-family: "Inter-medium";
+}
+
+.card__contents{
+    margin-top: 15px;
+}
+
+.cards__title{
+    font-family: "Inter-medium";
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+
+
+.card__contents-text{
+    font-family: "Inter-medium";
+    font-size: 12px;
+    width: 280px;
+}
+
+.card__image{
+    display: flex;
+    justify-content: center;
+}
+
+.card__block-css{
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media only screen and (max-width: 1650px) {
+    .card__block-css{
+        flex-direction: column;
+
+    }
+
+    .cards{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 965px) {
+    .cards__title {
+        font-size: 54px;
+    }
+}
+
+@media only screen and (max-width: 875px) {
+    .cards__title {
+        font-size: 54px;
+    }
+    .card__contents-text {
+        width: 260px;
+    }
+    .card{
+        width: 250px;
+    }
+    .card__number {
+        font-size: 35px;
+    }
+    .cards__title {
+        font-size: 46px;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards__title-sub{
+        width: 380px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .card {
+        width: 200px;
+    }
+    .cards__title-sub {
+        width: 245px;
+    }
+    .cards__title {
+        font-size: 33px;
+    }
+    .card__contents-text {
+        width: 200px;
+    }
+    .card__number {
+        font-size: 25px;
+    }
+}
+

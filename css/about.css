@@ -1,0 +1,70 @@
+@import "./default.css";
+@import "../fonts/font.css";
+
+.aboutUS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutUS__title{
+    font-family: "Inter-medium";
+    font-size: 40px;
+    color: #08040d;
+}
+
+.aboutUS__text{
+    width: 700px;
+    text-align: justify;
+    font-family: "Inter-medium";
+    font-size: 20px;
+    color: #08040d;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 870px) {
+    .aboutUS__title {
+        font-size: 38px;
+    }
+    .aboutUS__text {
+        width: 595px;
+    }
+  }
+
+@media only screen and (max-width: 650px) {
+    .aboutUS__text {
+        width: 475px;
+        font-size: 17px;
+    }
+  }
+
+@media only screen and (max-width: 540px) {
+    .aboutUS__text {
+        width: 362px;
+        font-size: 17px;
+    }
+  }
+
+@media only screen and (max-width: 420px) {
+    .aboutUS__text {
+        width: 290px;
+        font-size: 18px;
+    }
+  }
+
+@media only screen and (max-width: 360px) {
+    .aboutUS__title {
+        font-size: 35px;
+    }
+
+    .aboutUS__text {
+        width: 265px;
+        font-size: 16px;
+    }    
+  }
+
+@media only screen and (max-width: 280px) {
+    .aboutUS__text {
+        width: 235px;
+        font-size: 14px;
+    }    
+  }
